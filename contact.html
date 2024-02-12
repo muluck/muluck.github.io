@@ -17,7 +17,11 @@
     </header>
     <section id="contact">
         <h2>Kontaktieren Sie uns</h2>
-        <form id="contact-form">
+        <form id="contact-form" method="post" action="send_email.php">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
             <div>
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
