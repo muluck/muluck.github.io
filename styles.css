@@ -9,6 +9,10 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
 }
 
 nav ul {
@@ -27,6 +31,10 @@ nav ul li a {
     text-decoration: none;
 }
 
+.content {
+    padding-top: 80px; /* Platz für den fixierten Header */
+}
+
 #images img {
     width: 100%;
     height: auto;
@@ -36,6 +44,8 @@ nav ul li a {
 #about {
     padding: 20px;
     text-align: justify;
+    background-color: #fff; /* Hintergrundfarbe für den Textbereich */
+    margin-top: -80px; /* Verschiebung des Textbereichs über das obere Bild */
 }
 
 footer {
@@ -43,5 +53,4 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
-    position: relative;
 }
