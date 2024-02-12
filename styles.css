@@ -1,17 +1,19 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
 
 header {
     background-color: #333;
     color: #fff;
     padding: 20px;
+    text-align: center;
 }
 
 nav ul {
     list-style-type: none;
+    margin: 0;
     padding: 0;
 }
 
@@ -21,21 +23,25 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
 }
 
-section {
-    padding: 50px;
+#images img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
-.menu-item {
-    margin-bottom: 20px;
+#about {
+    padding: 20px;
+    text-align: justify;
 }
 
 footer {
     background-color: #333;
     color: #fff;
-    text-align: center;
     padding: 20px;
+    text-align: center;
+    position: relative;
 }
