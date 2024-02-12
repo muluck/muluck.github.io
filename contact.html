@@ -17,23 +17,17 @@
     </header>
     <section id="contact">
         <h2>Kontaktieren Sie uns</h2>
-        <form id="contact-form" method="post" action="send_email.php">
-            <div>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div>
-                <label for="phone">Telefonnummer:</label>
-                <input type="tel" id="phone" name="phone" required>
-            </div>
-            <div>
-                <label for="message">Nachricht:</label>
-                <textarea id="message" name="message" required></textarea>
-            </div>
+        <!-- modify this form HTML and place wherever you want your form -->
+        <form action="https://formspree.io/f/xpzvdzng" method="POST">
+            <label>
+                Ihre E-Mail:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Ihre Nachricht:
+                <textarea name="message"></textarea>
+            </label>
+            <!-- Ihre anderen Formularfelder hier einfügen -->
             <button type="submit">Senden</button>
         </form>
     </section>
